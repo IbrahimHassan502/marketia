@@ -2192,7 +2192,7 @@ h6 {
   width: 40px;
   height: 10px;
   position: absolute;
-  bottom: -10px;
+  bottom: -5px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
