@@ -30,40 +30,38 @@
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg965" />
-  <defs
-     id="defs6">
-    <style
-       id="style4">
-      <style
-         type="text/css"
-         id="style2"><![CDATA[
-    
-                    .rotate {
-    transform-box: fill-box;
-}
-.firstleft {
-    animation: firstleft 2s linear infinite alternate;
-}
-@keyframes firstleft {
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(5px);}
-    50% {transform: translateY(-5px);}
-}
+  <defs id="defs6">
+    <style id="style4">
+      <style type="text/css" id="style2">
+         <![CDATA[
+         
+         .rotate {
+         transform-box: fill-box;
+         }
+         .firstleft {
+            animation: firstleft 2s linear infinite alternate;
+         }
+         @keyframes firstleft {
+            0% {transform: translateY(0px);}
+            50% {transform: translateY(7px);}
+            50% {transform: translateY(-7px);}
+         }
 
-.firstleft2 {
-    animation: firstleft2 2s linear infinite alternate;
-    animation-delay: 1s;
-}
-@keyframes firstleft2 {
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(5px);}
-    50% {transform: translateY(-5px);}
-}
+         .firstleft2 {
+            animation: firstleft2 2s linear infinite alternate;
+            animation-delay: 1s;
+         }
+         @keyframes firstleft2 {
+            0% {transform: translateY(0px);}
+            50% {transform: translateY(7px);}
+            50% {transform: translateY(-7px);}
+         }
 
-.firstleft3 {
-    animation-duration: 2.5s;
-}
-]]></style>
+         .firstleft3 {
+            animation-duration: 2.5s;
+         }
+      ]]>
+</style>
     </style>
   </defs>
   <defs

@@ -2142,7 +2142,7 @@ h6 {
   }
 }
 .count i {
-  font-size: 54px;
+  font-size: 2.5em;
   background: -webkit-linear-gradient(0deg, #d8695e 2%, #6f09be 82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2296,6 +2296,7 @@ h6 {
 }
 .faq i {
   font-size: 32px;
+  color: #ffdb73;
 }
 @media (min-width: 580px) and (max-width: 767px) {
   .faq .faqbox {
@@ -2794,6 +2795,7 @@ h6 {
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 20px;
 }
 .contact ul {
   display: -webkit-box;
@@ -2828,6 +2830,8 @@ h6 {
   padding-left: 10px;
 }
 .contact .location .locationitem {
+  display: flex;
+  align-items: center;
   margin-bottom: 20px;
 }
 .contact .location .locationitem a {
@@ -2854,7 +2858,6 @@ h6 {
 }
 .contact .location p {
   display: inline-block;
-  width: 60%;
   color: white;
 }
 .contact .location p.mainp {
@@ -2863,17 +2866,12 @@ h6 {
   margin-bottom: 50px;
 }
 .location i {
-  font-size: 30px;
+  font-size: 1.6em;
   margin-right: 20px;
-  position: relative;
-  top: 5px;
 }
-.location i.bx.bxs-map {
-  position: relative;
-  bottom: 12px;
-  top: 0;
+.location i.icon-location {
+  align-self: flex-start;
 }
-
 /* contact us */
 
 /* footer */
@@ -3017,7 +3015,7 @@ footer .yellow {
 .loading h2 {
   font-size: 10vw;
   position: relative;
-  background: -webkit-linear-gradient(0deg, #40a8c4, aqua, #41d8d3, #40a8c4);
+  background: -webkit-linear-gradient(0deg, #40a8c4, #00ffff, #41d8d3, #40a8c4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 400%;
