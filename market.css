@@ -74,7 +74,9 @@ h6 {
   overflow: hidden;
   padding-bottom: 160px;
 }
-
+.head .marg {
+  margin-top: 100px;
+}
 .head .brand {
   padding-top: 25px;
   display: block;
