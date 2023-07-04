@@ -38,28 +38,23 @@
          .rotate {
          transform-box: fill-box;
          }
+         .firstright {
+            animation: floating 4s linear infinite alternate;
+         }
          .firstleft {
-            animation: firstleft 2s linear infinite alternate;
+            animation: floating 2.5s linear infinite alternate;
          }
-         @keyframes firstleft {
-            0% {transform: translateY(0px);}
-            50% {transform: translateY(7px);}
-            50% {transform: translateY(-7px);}
-         }
-
          .firstleft2 {
-            animation: firstleft2 2s linear infinite alternate;
-            animation-delay: 1s;
+            animation: floating 2s linear 0.25s infinite alternate;
          }
-         @keyframes firstleft2 {
-            0% {transform: translateY(0px);}
-            50% {transform: translateY(7px);}
-            50% {transform: translateY(-7px);}
-         }
-
          .firstleft3 {
-            animation-duration: 2.5s;
+            animation: floating 3s linear 0.25s infinite alternate;
          }
+         @keyframes floating {
+            0% {transform: translateY(0px);}
+            50% {transform: translateY(12px);}
+            100% {transform: translateY(-12px);}
+         }         
       ]]>
 </style>
     </style>
@@ -1337,7 +1332,7 @@
          clip-path="url(#clipPath16953)"
          id="g707">
         <g
-           class="firstleft rotate"
+           class="firstright rotate"
            id="g661">
           <g
              transform="translate(667.42 310.86)"

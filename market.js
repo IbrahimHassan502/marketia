@@ -18,6 +18,7 @@ $(function () {
       0: { items: 2, center: false },
     },
   });
+  
   $(
     ".cleint .owl-carousel .owl-item.active:first .item .cleintname:last-child"
   ).addClass("active");

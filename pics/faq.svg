@@ -152,45 +152,41 @@
         .rotate {
     transform-box: fill-box;
 }
-      .rightarm {
-    transform-origin: top right;
+.rightarm {
+    transform-origin: top left;
+    transform: rotate(-7deg) translateY(0px);
     animation: rightarm 2s linear infinite alternate;
+
 }
 
 @keyframes rightarm {
-    from {}
-    to {transform: rotate(3deg) translateY(1px);}
+    to {transform: rotate(-33deg) translateY(3px);}
 }
 
 .midarm {
     transform-origin: bottom left;
-    animation: midarm 1.25s linear infinite alternate;
-    animation-delay: 1s;
+    animation: rotate 1.25s linear 1s infinite alternate;
 }
 
-@keyframes midarm {
-    from {}
-    to {transform: rotate(4deg);}
+@keyframes rotate {
+    to {transform: rotate(10deg);}
 }
 
-.topqmark {
-    
+.topqmark {    
     animation: topqmark 1.5s linear infinite alternate;
 }
 
 @keyframes topqmark {
-    from {}
-    to {transform: translateY(7px);}
+    to {transform: translateY(12px);}
 }
 
 
 .leftqmark {
     transform-origin: top right;
-    animation: leftqmark 1s linear infinite alternate;
+    animation: rotate-left 1s linear infinite alternate;
 }
 
-@keyframes leftqmark {
-    from {}
+@keyframes rotate-left {
     to {transform: rotate(-7deg);}
 }
 

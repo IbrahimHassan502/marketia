@@ -72,6 +72,7 @@ h6 {
   margin-bottom: 218px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 160px;
 }
 
 .head .brand {
@@ -301,56 +302,23 @@ h6 {
   transform: translate(-50%, -50%);
   font-size: 35px;
 }
-.head .marg {
-  margin-top: 60px;
-  margin-bottom: 226px;
-}
-
 .head iframe {
-  width: 115%;
-  height: 129%;
-  position: relative;
-  display: block;
-  margin: auto;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
 }
-@media (min-width: 1200px) {
-  .head iframe {
-    right: 40px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .head iframe {
-    width: 113%;
-    right: 21px;
-  }
-}
-
 @media (max-width: 991px) {
   .head iframe {
     width: 100%;
-    height: 46vh;
+    height: 80vh;
   }
 }
 
-@media (max-width: 767px) {
-  .head iframe {
-    height: 64vw;
-  }
-}
 .head .headline {
-  margin-top: 20px;
+  margin-bottom: 100px;
   width: 95%;
-  margin-left: 50px;
-  margin-left: 40px;
-  position: relative;
-  top: 47px;
   color: white;
   text-transform: capitalize;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .head .headline {
-    margin-left: 40px;
-  }
 }
 @media (max-width: 584px) {
   .head .headline {
@@ -2515,8 +2483,8 @@ h6 {
 }
 @media (max-width: 906px) {
   .adjust:not(:first-child) .teamcard .teamimg {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
   }
 }
 
