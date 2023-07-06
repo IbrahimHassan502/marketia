@@ -362,14 +362,14 @@ h6 {
 }
 @media (max-width: 576px) {
   .head .mainline {
-    font-size: 12vw;
+    font-size: 11vw;
     font-weight: bold;
     line-height: 1.3em;
   }
 }
 @media (max-width: 482px) {
   .head .mainline {
-    font-size: 13vw;
+    font-size: 12vw;
     font-weight: bold;
     line-height: 1.3em;
   }
@@ -643,15 +643,10 @@ h6 {
 @media (min-width: 350px) and (max-width: 575px) {
   .why .h3 {
     font-weight: bold;
-    font-size: 14vw;
+    font-size: 12vw;
   }
 }
-@media (min-width: 350px) and (max-width: 575px) {
-  .why .h3.time {
-    font-weight: bold;
-    font-size: 16vw;
-  }
-}
+
 @media (max-width: 349px) {
   .why .h3 {
     font-weight: bold;
