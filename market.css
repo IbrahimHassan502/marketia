@@ -317,7 +317,6 @@ h6 {
 }
 
 .head .headline {
-  margin-bottom: 100px;
   width: 95%;
   color: white;
   text-transform: capitalize;
@@ -388,6 +387,8 @@ h6 {
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 10px 0;
+  margin-top: 70px;
 }
 @media (max-width: 1200px) {
   .head .btn {
@@ -1719,8 +1720,9 @@ h6 {
 }
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-  font-size: 36px;
+  font-size: 50px;
   color: #6e0bbf;
+  margin-right: 40px;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background: none;

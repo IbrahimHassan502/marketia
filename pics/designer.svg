@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="27.432808"
-     inkscape:cx="37.436926"
-     inkscape:cy="48.864848"
+     inkscape:zoom="19.397925"
+     inkscape:cx="34.591329"
+     inkscape:cy="25.440866"
      inkscape:window-width="1280"
      inkscape:window-height="945"
      inkscape:window-x="-9"
@@ -35,7 +35,7 @@
      id="defs4">
     <style
        type="text/css"
-       id="style2"><![CDATA[
+       id="style2">
         .rotate {
     transform-box: fill-box;
 }
@@ -111,13 +111,44 @@
     animation: rise 2s linear infinite alternate;
 }
 @keyframes rise {
-    25% {transform:translate(4%,-13.75%) rotate(-16deg)}
-    50% {transform:translate(0%,-27.5%) rotate(0deg)}
-    75% {transform:translate(4%,-41.25%) rotate(-16deg)}
+    25% {transform:translate(4%,-13.75%) rotate(-16deg);}
+    50% {transform:translate(0%,-27.5%) rotate(0deg);}
+    75% {transform:translate(4%,-41.25%) rotate(-16deg);}
     100% {transform:translate(0%,-55%) rotate(0deg);}
 }
 
-    ]]></style>
+#moon {
+   <!-- animation: set-and-rise 4s linear infinite alternate; -->
+}
+<!-- @keyframes set-and-rise {
+    14% {
+      transform: translate(0.8%,-0.25%);
+    }
+    20% {
+      transform: translate(1.2%,-0.5%);
+    }
+    28% {
+      transform: translate(2%,-1%);
+    }
+    42% {
+      transform: translate(3%,-1.5%);
+    }
+    56% {
+      transform: translate(5%,-1.3%);
+    }
+    70% {
+      transform: translate(8%,-0.7%);
+    }
+    84% {
+      transform: translate(11%,-0.5%);
+      opacity:1;
+    }
+    100% {
+      transform: translate(12.5%,1%);
+      opacity:0;
+    }
+} -->
+</style>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath1590">
@@ -834,16 +865,18 @@
        class="clockhand2 rotate"
        id="path294" />
   </g>
-  <path
-     fill="#ffffff"
-     d="m 14.148966,78.948085 -0.629332,1.633881 -1.63178,-0.460623 -0.844241,1.969198 h 4.818337 l -0.916345,-2.555827 z m -2.523625,-0.084 c -0.112005,-0.312215 -0.455722,-0.565628 -0.770038,-0.565628 -0.314315,0 -0.474623,0.253413 -0.362618,0.565628 0.112006,0.312216 0.455723,0.565628 0.770038,0.565628 0.314316,0 0.475324,-0.253412 0.362618,-0.565628 z"
-     id="path112-2"
-     style="fill:#50c7f1;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
-     clip-path="url(#clipPath2350)"
-     transform="matrix(3.8540836,0,0,3.8432804,-11.300639,-282.15263)" />
+  <rect
+     style="fill:#50c7f1;stroke-width:0"
+     id="rect826"
+     width="6.1862288"
+     height="5.41295"
+     x="28.301998"
+     y="18.661789" />
   <g
      id="moon"
-     inkscape:label="moon">
+     class="moon"
+     inkscape:label="moon"
+     transform="translate(-0.82483053,3.0415626)">
     <path
        fill="#ffffff"
        d="m 14.148966,78.948085 -0.629332,1.633881 -1.63178,-0.460623 -0.844241,1.969198 h 4.818337 l -0.916345,-2.555827 z m -2.523625,-0.084 c -0.112005,-0.312215 -0.455722,-0.565628 -0.770038,-0.565628 -0.314315,0 -0.474623,0.253413 -0.362618,0.565628 0.112006,0.312216 0.455723,0.565628 0.770038,0.565628 0.314316,0 0.475324,-0.253412 0.362618,-0.565628 z"

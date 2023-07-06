@@ -21,9 +21,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="3.4475203"
-     inkscape:cx="78.752256"
-     inkscape:cy="51.196218"
+     inkscape:zoom="9.7510599"
+     inkscape:cx="114.14144"
+     inkscape:cy="88.862135"
      inkscape:window-width="1280"
      inkscape:window-height="945"
      inkscape:window-x="-9"
@@ -32,119 +32,117 @@
      inkscape:current-layer="svg1255" />
   <defs
      id="defs4">
-     <!-- ================== ANIMATION ================== -->
+    <!-- ================== ANIMATION ================== -->
     <style
        type="text/css"
        id="style2"><![CDATA[
 
     .rotate {
     transform-box: fill-box;
-}
-.slice1 {
-    animation: slice1 1s linear infinite alternate;
-}
+   }
+   .slice1 {
+      animation: slice1 1s linear infinite alternate;
+   }
 
-@keyframes slice1 {
-    from {}
-    to {transform: scale(1.2) translate(2px, 2px);}
-}
-svg {overflow: visible;}
+   @keyframes slice1 {
+      to {transform: scale(1.2) translate(2px, 2px);}
+   }
+   svg {overflow: visible;}
 
-.slice2 {
-    animation: slice2 1.2s linear infinite alternate;
-    animation-delay: 1s;
-    transform-origin: top right;
-}
+   .slice2 {
+      animation: slice2 1.2s linear infinite alternate;
+      animation-delay: 1s;
+      transform-origin: top right;
+   }
 
-@keyframes slice2 {
-    from {}
-    to {transform: scale(1.2) translate(7.5px, 0px);}
-}
+   @keyframes slice2 {
+      to {transform: scale(1.2) translate(7.5px, 0px);}
+   }
 
-.slice3 {
-    transform-origin: bottom left;
-    animation: slice3 1s linear infinite alternate;
-}
+   .slice3 {
+      transform-origin: bottom left;
+      animation: slice3 1s linear infinite alternate;
+   }
 
-@keyframes slice3 {
-    from {}
-    to {transform: scale(1.2) translate(0px, .75px);}
-}
-.atom {
-    animation: atom 1s linear infinite alternate;
-    transform-origin: center right;
-    transform: rotate(-42deg);
-}
+   @keyframes slice3 {
+      to {transform: scale(1.2) translate(0px, .75px);}
+   }
+   .atom {
+      animation: atom 1s linear infinite alternate;
+      transform-origin: center right;
+      transform: rotate(-42deg);
+   }
 
-@keyframes atom {
-    from {}
-    to {transform: rotate(-20deg);}
-}
-.clockh1 {
-    animation: clockh1 7s linear infinite;
-    transform-origin: 50% -22%;
-}
+   @keyframes atom {
+      to {transform: rotate(-20deg);}
+   }
+   .clockh1 {
+      animation: clockh1 7s linear infinite;
+      transform-origin: 50% -22%;
+   }
 
-@keyframes clockh1 {
-    from {}
-    to {transform: rotate(-360deg);}
-}
+   @keyframes clockh1 {
+      to {transform: rotate(-360deg);}
+   }
 
 
-.clockh2 {
-    animation: clockh2 11s linear infinite;
-    transform-origin: -35% 50%;
-}
+   .clockh2 {
+      animation: clockh2 11s linear infinite;
+      transform-origin: -35% 50%;
+   }
 
-@keyframes clockh2 {
-    from {}
-    to {transform: rotate(-360deg);}
-}
+   @keyframes clockh2 {
+      to {transform: rotate(-360deg);}
+   }
 
-.cloud1 {
-    animation: cloud1 2s linear infinite alternate;
-}
+   .cloud1 {
+      animation: cloud1 2s linear infinite alternate;
+   }
 
-@keyframes cloud1 {
-    from {}
-    to {transform: translateX(5px);}
-}
+   @keyframes cloud1 {
+      to {transform: translateX(5px);}
+   }
 
-.plus {
-    animation: plus 1s linear infinite;
-    transform-origin: center;
-}
+   .plus {
+      animation: plus 1s linear infinite;
+      transform-origin: center;
+   }
 
-@keyframes plus {
-    0% {transform: rotate(0deg);}
-    20%, 100% {transform: rotate(-91deg);}
-}
+   @keyframes plus {
+      0% {transform: rotate(0deg);}
+      20%, 100% {transform: rotate(-91deg);}
+   }
 
-.plus1 {
-    animation-duration: 1.15s;
-}
+   .plus1 {
+      animation-duration: 1.15s;
+   }
 
-.gear {
-    transform-origin: center;
-    animation: gear 17s linear infinite;
-}
+   .gear {
+      transform-origin: center;
+      animation: gear 17s linear infinite;
+   }
 
-@keyframes gear {
-    from {}
-    to {transform: rotate(360deg);}
-}
+   @keyframes gear {
+      to {transform: rotate(360deg);}
+   }
 
 
-.gear1 {
-    transform-origin: center;
-    animation: gear1 17s linear infinite;
-}
+   .gear1 {
+      transform-origin: center;
+      animation: gear1 17s linear infinite;
+   }
 
-@keyframes gear1 {
-    from {}
-    to {transform: rotate(360deg);}
-}
+   @keyframes gear1 {
+      to {transform: rotate(360deg);}
+   }
 
+   #clock-hands {
+      transform-origin: 10% 35%;
+      animation: rotate-clock-hands 20s linear infinite;
+   }
+   @keyframes rotate-clock-hands {
+      to {transform:rotate(-360deg);}
+   }
 ]]></style>
   </defs>
   <!-- ================== ANIMATION ================== -->
@@ -1510,7 +1508,7 @@ svg {overflow: visible;}
                id="path613" />
           </g>
           <g
-            class='check'
+             class="check"
              transform="translate(242.35 320.87)"
              id="g619">
             <path
@@ -1521,7 +1519,7 @@ svg {overflow: visible;}
                stroke-linejoin="round"
                stroke-miterlimit="10"
                stroke-width="3.906"
-               id="path617"/>
+               id="path617" />
           </g>
           <g
              transform="translate(416.04 320.87)"
@@ -2292,10 +2290,15 @@ svg {overflow: visible;}
           <g
              transform="translate(521.13 156.33)"
              id="g915">
-            <path
-               d="m0 0c-1.003 0-1.992 0.463-2.628 1.335l-26.521 36.387 26.099 70.703c0.622 1.683 2.488 2.543 4.173 1.922 1.683-0.621 2.544-2.489 1.922-4.172l-24.893-67.439 24.471-33.574c1.056-1.45 0.737-3.482-0.712-4.539-0.577-0.421-1.247-0.623-1.911-0.623"
-               fill="#50c7f1"
-               id="path913" />
+            <g
+               id="clock-hands"
+               class="rotate"
+               inkscape:label="clock-hands">
+              <path
+                 d="m0 0c-1.003 0-1.992 0.463-2.628 1.335l-26.521 36.387 26.099 70.703c0.622 1.683 2.488 2.543 4.173 1.922 1.683-0.621 2.544-2.489 1.922-4.172l-24.893-67.439 24.471-33.574c1.056-1.45 0.737-3.482-0.712-4.539-0.577-0.421-1.247-0.623-1.911-0.623"
+                 fill="#50c7f1"
+                 id="path913" />
+            </g>
           </g>
           <g
              transform="translate(503.76 194.56)"
