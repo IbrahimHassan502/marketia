@@ -6,6 +6,7 @@
 $(function () {
   "use strict";
 
+  // our clients carousel
   $(".owl-one").owlCarousel({
     loop: true,
     margin: 10,
@@ -18,7 +19,7 @@ $(function () {
       0: { items: 2, center: false },
     },
   });
-  
+
   $(
     ".cleint .owl-carousel .owl-item.active:first .item .cleintname:last-child"
   ).addClass("active");

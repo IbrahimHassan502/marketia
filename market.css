@@ -1679,6 +1679,15 @@ h6 {
 .cleint .owl-carousel .owl-stage-outer {
   height: 75px;
 }
+/* .cleint .owl-carousel .owl-item:not(.active:first-of-type) img {
+  width: 85%;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cleint .owl-carousel .owl-item img:hover {
+  filter: grayscale(0);
+} */
 .cleint .cleintname {
   font-size: 40px;
   font-weight: bold;
